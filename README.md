@@ -5,7 +5,8 @@ A semi-general purpose, modular, MLP model (see long comments below). Interectiv
 MLPs are, in general, fairly primitive, but they lay the groundwork for understanding more sophisticated and different models. What this means for this implementation is that it's going to be kind of slow, relatively innacurate, and more prone to overfitting and such. Nevertheless, it can achieve ~95-96% trained on MNIST, ~97-98% trained on EMNIST "Digits" (b/c much larger) and mid-to-high 80% for
 letters, where the limitations of this model really hurt.
 
-Long comments (referenced in source file):
+## Long comments (referenced in source file):
+
 1: Loading "Digits" EMNIST dataset by default, can be trivially modified for MNIST or letters, which numpy_datasets also provides (be careful when instantiating network, appropriate number of input/outpu nodes...). Please refer to their website for more info: <https://numpy-datasets.readthedocs.io/en/latest/modules/images.html>
 
 <-Below comments are informative in nature or explain certain choices->
